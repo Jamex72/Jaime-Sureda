@@ -1,0 +1,17 @@
+.hero-image {
+  background-image: url("panaderos10/assets/living-03.webp");
+}
+
+.hero-image.image-right {
+  background-image: url("fernando-camino-15/assets/living-room-20260803.webp");
+}
+
+@media (max-width: 760px) {
+  .hero-image {
+    background-image: url("panaderos10/assets/living-03-768.webp");
+  }
+
+  .hero-image.image-right {
+    background-image: url("fernando-camino-15/assets/living-room-20260803-768.webp");
+  }
+}
