@@ -3,6 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    if (location.pathname.endsWith('/index.html')) {
+      const cleanUrl = new URL(location.href);
+      cleanUrl.pathname = cleanUrl.pathname.slice(0, -10);
+      location.replace(cleanUrl.href);
+    }
+  </script>
   <title>Activo turístico en venta en La Malagueta, Málaga | Fernando Camino 15 | Jaime Sureda</title>
   <meta name="description" content="Activo turístico dual en La Malagueta, Málaga: dos apartamentos independientes, licencia turística en vigor y 105,37 m² construidos aprox.">
   <link rel="canonical" href="https://jaimesureda.com/fernando-camino-15/">

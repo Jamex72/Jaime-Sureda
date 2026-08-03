@@ -3,6 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    if (location.pathname.endsWith('/index.html')) {
+      const cleanUrl = new URL(location.href);
+      cleanUrl.pathname = cleanUrl.pathname.slice(0, -10);
+      location.replace(cleanUrl.href);
+    }
+  </script>
   <title>Jaime Sureda | Propiedades seleccionadas en Málaga</title>
   <meta name="description" content="Propiedades seleccionadas en Málaga. Descubra las residencias y oportunidades de inversión representadas por Jaime Sureda.">
   <link rel="canonical" href="https://jaimesureda.com/">
@@ -32,8 +39,8 @@
     </section>
     <section id="properties" class="properties"><div class="section-top"><div><p class="eyebrow olive" data-i18n="propertiesEyebrow">Propiedades disponibles</p><h2 data-i18n="propertiesTitle">Elija una propiedad para descubrirla.</h2></div><p data-i18n="propertiesBody">Cada residencia cuenta con su propio dossier digital, galería y detalles para una primera visita a su ritmo.</p></div>
       <div class="property-grid">
-        <a class="property-card panaderos" href="panaderos10/index.html"><img src="panaderos10/assets/living-03.jpg" alt="Interior de Panaderos 10"><div class="card-shade"></div><div class="card-copy"><div class="card-top"><span data-i18n="panaderosLocation">Centro Histórico · Málaga</span><span>01</span></div><div><p class="card-type" data-i18n="panaderosType">Residencia urbana</p><h3>Panaderos <em>10</em></h3><div class="card-details"><span>51,32 m²</span><span data-i18n="panaderosFacts">1 dormitorio · Ascensor</span></div><strong>449.000 €</strong><span class="card-link"><span data-i18n="viewProperty">Ver propiedad</span> →</span></div></div></a>
-        <a class="property-card fernando" href="fernando-camino-15/index.html"><img src="fernando-camino-15/assets/living-room-20260803.png" alt="Interior de Fernando Camino 15"><div class="card-shade"></div><div class="card-copy"><div class="card-top"><span data-i18n="fernandoLocation">La Malagueta · Málaga</span><span>02</span></div><div><p class="card-type" data-i18n="fernandoType">Activo turístico dual</p><h3>Fernando Camino <em>15</em></h3><div class="card-details"><span>105,37 m²</span><span data-i18n="fernandoFacts">2 unidades · Licencia turística</span></div><strong>950.000 €</strong><span class="card-link"><span data-i18n="viewProperty">Ver propiedad</span> →</span></div></div></a>
+        <a class="property-card panaderos" href="/panaderos10/"><img src="panaderos10/assets/living-03.jpg" alt="Interior de Panaderos 10"><div class="card-shade"></div><div class="card-copy"><div class="card-top"><span data-i18n="panaderosLocation">Centro Histórico · Málaga</span><span>01</span></div><div><p class="card-type" data-i18n="panaderosType">Residencia urbana</p><h3>Panaderos <em>10</em></h3><div class="card-details"><span>51,32 m²</span><span data-i18n="panaderosFacts">1 dormitorio · Ascensor</span></div><strong>449.000 €</strong><span class="card-link"><span data-i18n="viewProperty">Ver propiedad</span> →</span></div></div></a>
+        <a class="property-card fernando" href="/fernando-camino-15/"><img src="fernando-camino-15/assets/living-room-20260803.png" alt="Interior de Fernando Camino 15"><div class="card-shade"></div><div class="card-copy"><div class="card-top"><span data-i18n="fernandoLocation">La Malagueta · Málaga</span><span>02</span></div><div><p class="card-type" data-i18n="fernandoType">Activo turístico dual</p><h3>Fernando Camino <em>15</em></h3><div class="card-details"><span>105,37 m²</span><span data-i18n="fernandoFacts">2 unidades · Licencia turística</span></div><strong>950.000 €</strong><span class="card-link"><span data-i18n="viewProperty">Ver propiedad</span> →</span></div></div></a>
       </div>
     </section>
     <section id="about" class="about"><p class="eyebrow olive" data-i18n="aboutEyebrow">Jaime Sureda</p><div class="about-grid"><h2 data-i18n="aboutTitle">El lugar correcto merece una presentación a su altura.</h2><div><p data-i18n="aboutBody1">Una aproximación personal a la compraventa inmobiliaria: menos propiedades, mejor seleccionadas y presentadas con la atención que exige cada dirección.</p><p data-i18n="aboutBody2">Información clara, visitas privadas y acompañamiento directo para compradores y propietarios en Málaga.</p><a class="arrow-link dark" href="#contact"><span data-i18n="contactLink">Hablar con Jaime</span><b>→</b></a></div></div></section>
