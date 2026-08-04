@@ -93,11 +93,14 @@
   <link rel="preload" href="/assets/fonts/cormorant-garamond-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="../typography.css">
+  <link rel="stylesheet" href="/mobile-nav.css">
+  <script src="/mobile-nav.js" defer></script>
 </head>
 <body>
   <header class="nav">
     <a class="wordmark" href="#top" aria-label="Panaderos 10">PANADEROS <span>10</span></a>
-      <nav><a href="#residence" data-i18n="navResidence">Residencia</a><a href="/inversion-inmobiliaria-malaga/">Inversión</a><a href="#gallery" data-i18n="navGallery">Galería</a><a href="#details" data-i18n="navDetails">Detalles</a><a href="#contact" data-i18n="navContact">Contacto</a></nav>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+      <nav id="site-nav"><a href="#residence" data-i18n="navResidence">Residencia</a><a href="/inversion-inmobiliaria-malaga/">Inversión</a><a href="/vender-inmueble-malaga-marbella/">Vender</a><a href="#gallery" data-i18n="navGallery">Galería</a><a href="#details" data-i18n="navDetails">Detalles</a><a href="#contact" data-i18n="navContact">Contacto</a></nav>
     <button class="language" type="button" aria-label="Change language">EN</button>
   </header>
 

@@ -28,11 +28,14 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="typography.css">
   <link rel="stylesheet" href="image-optimization.css">
+  <link rel="stylesheet" href="/mobile-nav.css">
+  <script src="/mobile-nav.js" defer></script>
 </head>
 <body>
   <header class="nav">
     <a class="brand" href="#top" aria-label="Jaime Sureda">JAIME <em>SUREDA</em></a>
-    <nav><a href="#properties" data-i18n="navProperties">Propiedades</a><a href="/inversion-inmobiliaria-malaga/">Inversión</a><a href="/vender-inmueble-malaga-marbella/">Vender</a><a href="#about" data-i18n="navAbout">El proyecto</a><a href="#contact" data-i18n="navContact">Contacto</a></nav>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+    <nav id="site-nav"><a href="#properties" data-i18n="navProperties">Propiedades</a><a href="/inversion-inmobiliaria-malaga/">Inversión</a><a href="/vender-inmueble-malaga-marbella/">Vender</a><a href="#about" data-i18n="navAbout">El proyecto</a><a href="#contact" data-i18n="navContact">Contacto</a></nav>
     <button class="language" type="button" aria-label="Change language">EN</button>
   </header>
   <main id="top">
