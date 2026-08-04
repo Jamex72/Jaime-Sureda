@@ -1,17 +1,21 @@
 .hero-image {
-  background-image: url("panaderos10/assets/living-03.webp");
+  background-image: none;
 }
 
-.hero-image.image-right {
-  background-image: url("fernando-camino-15/assets/living-room-20260803.webp");
+.hero-image > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 @media (max-width: 760px) {
-  .hero-image {
-    background-image: url("panaderos10/assets/living-03-768.webp");
+  .hero-image.image-left > img {
+    object-position: 38% center;
   }
 
-  .hero-image.image-right {
-    background-image: url("fernando-camino-15/assets/living-room-20260803-768.webp");
+  .hero-image.image-right > img {
+    object-position: center;
   }
 }
