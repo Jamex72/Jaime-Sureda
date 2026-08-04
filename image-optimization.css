@@ -1,4 +1,5 @@
-.hero-image {
+.hero-image,
+.hero-image.image-right {
   background-image: none;
 }
 
