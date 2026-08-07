@@ -7,7 +7,13 @@
 }
 @media(max-width:768px){
   .brand-logo{
-    height:52px;
-    max-width:260px;
+    width:190px !important;
+    height:auto !important;
+    max-width:60vw !important;
+  }
+
+  .brand{
+    flex-shrink:1;
+    min-width:0;
   }
 }
