@@ -31,12 +31,13 @@
       {
         "@type":"ItemList",
         "name":"Listings inmobiliarios de Jaime Sureda",
-        "numberOfItems":4,
+        "numberOfItems":5,
         "itemListElement":[
           {"@type":"ListItem","position":1,"name":"Panaderos 10 · En venta","url":"https://jaimesureda.com/panaderos10/"},
           {"@type":"ListItem","position":2,"name":"Fernando Camino 15 · En venta","url":"https://jaimesureda.com/fernando-camino-15/"},
           {"@type":"ListItem","position":3,"name":"Apartamento en primera planta · Alquilado hasta 2027","url":"https://jaimesureda.com/inversion-inmobiliaria-marbella/#activo-fase-4"},
-          {"@type":"ListItem","position":4,"name":"Ático dúplex · Alquiler mensual de verano","url":"https://jaimesureda.com/propiedades/#alquiler"}
+          {"@type":"ListItem","position":4,"name":"Ático dúplex · Alquiler mensual de verano","url":"https://jaimesureda.com/propiedades/#alquiler"},
+          {"@type":"ListItem","position":5,"name":"Apartamento en planta baja · Alquiler de temporada","url":"https://jaimesureda.com/alquiler-temporada-los-naranjos-marbella/"}
         ]
       }
     ]
@@ -47,7 +48,7 @@
   <link rel="preload" href="/panaderos10/assets/living-03.webp" as="image">
   <link rel="stylesheet" href="/typography.css">
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="listing-updates.css">
+  <link rel="stylesheet" href="listing-updates.css?v=20260831">
   <link rel="stylesheet" href="/mobile-nav.css">
   <link rel="stylesheet" href="/legal-links.css">
   <script src="/mobile-nav.js?v=20260804-3" defer></script>
@@ -92,7 +93,7 @@
 
       <div class="listing-tabs" role="tablist" aria-label="Tipo de operación">
         <button type="button" role="tab" aria-selected="true" aria-controls="panel-venta" id="tab-venta" data-listing-tab="venta">En venta <span>2</span></button>
-        <button type="button" role="tab" aria-selected="false" aria-controls="panel-alquiler" id="tab-alquiler" data-listing-tab="alquiler">Alquiler <span>2</span></button>
+        <button type="button" role="tab" aria-selected="false" aria-controls="panel-alquiler" id="tab-alquiler" data-listing-tab="alquiler">Alquiler <span>3</span></button>
       </div>
 
       <section class="listing-panel" id="panel-venta" role="tabpanel" aria-labelledby="tab-venta" data-listing-panel="venta">
@@ -154,7 +155,22 @@
               <h3>Ático dúplex para estancias de verano</h3>
               <div class="listing-facts"><span>2 dormitorios</span><span>1 baño</span><span>Aire acondicionado</span><span>3 terrazas</span></div>
               <p class="listing-note">Alquiler por meses durante la temporada de verano. Disponibilidad y condiciones bajo consulta.</p>
-              <div class="listing-bottom"><strong>Alquiler mensual</strong><a href="https://wa.me/34627199758?text=Hola%20Jaime%2C%20me%20gustar%C3%ADa%20consultar%20la%20disponibilidad%20del%20%C3%A1tico%20d%C3%BAplex%20de%20la%20fase%204%20para%20este%20verano." target="_blank" rel="noopener noreferrer">Consultar disponibilidad →</a></div>
+              <div class="listing-bottom"><strong>Alquiler mensual</strong><a href="https://wa.me/34611831936?text=Hola%20Jaime%2C%20me%20gustar%C3%ADa%20consultar%20la%20disponibilidad%20del%20%C3%A1tico%20d%C3%BAplex%20de%20la%20fase%204%20para%20este%20verano." target="_blank" rel="noopener noreferrer">Consultar disponibilidad →</a></div>
+            </div>
+          </article>
+          <article class="listing-card rental-card seasonal-card">
+            <a class="listing-image seasonal-gallery" href="/alquiler-temporada-los-naranjos-marbella/" aria-label="Ver alquiler de temporada en Los Naranjos de Marbella">
+              <img class="seasonal-main" src="assets/lnm-temporada-planta-baja/terraza-768.webp" srcset="assets/lnm-temporada-planta-baja/terraza-480.webp 480w, assets/lnm-temporada-planta-baja/terraza-768.webp 768w, assets/lnm-temporada-planta-baja/terraza.webp 1086w" sizes="(max-width:900px) 92vw, 42vw" width="1086" height="1448" loading="lazy" decoding="async" alt="Terraza privada junto a la piscina en Los Naranjos de Marbella">
+              <img class="seasonal-living" src="assets/lnm-temporada-planta-baja/salon-480.webp" width="480" height="640" loading="lazy" decoding="async" alt="Salón amueblado del apartamento">
+              <img class="seasonal-bedroom" src="assets/lnm-temporada-planta-baja/jardines-piscina-480.webp" width="480" height="640" loading="lazy" decoding="async" alt="Jardines y piscina comunitaria de Los Naranjos de Marbella">
+              <span class="listing-badge seasonal">Septiembre · Junio</span>
+            </a>
+            <div class="listing-copy">
+              <p class="listing-location">Los Naranjos de Marbella · Planta baja</p>
+              <h3>Alquiler de temporada con terraza privada</h3>
+              <div class="listing-facts"><span>3 dormitorios</span><span>2 baños</span><span>Hasta 6 personas</span><span>Piscina</span></div>
+              <p class="listing-note">Disponible del 1 de septiembre al 30 de junio. Estancia mínima de 3 meses e internet incluido.</p>
+              <div class="listing-bottom"><strong>2.000 €/mes</strong><a href="/alquiler-temporada-los-naranjos-marbella/">Ver condiciones →</a></div>
             </div>
           </article>
         </div>
@@ -163,7 +179,7 @@
 
     <section id="contacto" class="contact section">
       <div><p class="eyebrow pale">Contacto directo</p><h2>¿Busca comprar, vender o alquilar?</h2></div>
-      <div><p>Cuénteme qué tipo de inmueble y ubicación le interesan para revisar las oportunidades que encajen.</p><a class="contact-button" href="https://wa.me/34627199758?text=Hola%20Jaime%2C%20me%20gustar%C3%ADa%20consultar%20los%20listings%20disponibles." target="_blank" rel="noopener noreferrer">Escribir por WhatsApp</a><p class="privacy-notice">Al contactar, sus datos se usarán para atender la consulta. <a href="/politica-privacidad/">Más información sobre privacidad</a>.</p></div>
+      <div><p>Cuénteme qué tipo de inmueble y ubicación le interesan para revisar las oportunidades que encajen.</p><a class="contact-button" href="https://wa.me/34611831936?text=Hola%20Jaime%2C%20me%20gustar%C3%ADa%20consultar%20los%20listings%20disponibles." target="_blank" rel="noopener noreferrer">Escribir por WhatsApp</a><p class="privacy-notice">Al contactar, sus datos se usarán para atender la consulta. <a href="/politica-privacidad/">Más información sobre privacidad</a>.</p></div>
     </section>
   </main>
 

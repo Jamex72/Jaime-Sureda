@@ -8,13 +8,25 @@
   </url>
   <url>
     <loc>https://jaimesureda.com/propiedades/</loc>
-    <lastmod>2026-08-22</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://jaimesureda.com/en/properties/</loc>
-    <lastmod>2026-08-22</lastmod>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://jaimesureda.com/alquiler-temporada-los-naranjos-marbella/</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://jaimesureda.com/en/seasonal-rental-los-naranjos-marbella/</loc>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
