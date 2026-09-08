@@ -1,0 +1,50 @@
+.virtual-staging-notice {
+  max-width: 980px;
+  margin: 20px 0 0;
+  padding: 13px 16px;
+  border-left: 2px solid #9b6247;
+  background: rgba(255, 255, 255, 0.56);
+  color: #5d665a;
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+.virtual-staging-notice strong {
+  color: #2b382b;
+}
+
+.listing-card .virtual-staging-notice {
+  margin-top: 16px;
+  padding: 10px 12px;
+  font-size: 11px;
+}
+
+/* No per-image overlays are needed when the general disclosure is present. */
+.property-reference .property-media::after,
+.property-reference .staging-gallery figure::after,
+.property-reference .current-condition-gallery figure::after {
+  display: none;
+}
+
+.property-reference .current-condition-gallery--compact {
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+}
+
+.property-reference .current-condition-gallery--compact figure:nth-child(n) {
+  grid-column: auto;
+  grid-row: auto;
+  height: auto;
+  aspect-ratio: 4 / 3;
+}
+
+.property-reference .current-condition-gallery--compact img {
+  object-fit: contain;
+  background: #fff;
+}
+
+@media (max-width: 600px) {
+  .property-reference .current-condition-gallery--compact {
+    grid-template-columns: 1fr;
+  }
+}

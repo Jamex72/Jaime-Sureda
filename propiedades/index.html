@@ -31,13 +31,14 @@
       {
         "@type":"ItemList",
         "name":"Listings inmobiliarios de Jaime Sureda",
-        "numberOfItems":5,
+        "numberOfItems":6,
         "itemListElement":[
           {"@type":"ListItem","position":1,"name":"Panaderos 10 · En venta","url":"https://jaimesureda.com/panaderos10/"},
           {"@type":"ListItem","position":2,"name":"Fernando Camino 15 · En venta","url":"https://jaimesureda.com/fernando-camino-15/"},
-          {"@type":"ListItem","position":3,"name":"Apartamento en primera planta · Alquilado hasta 2027","url":"https://jaimesureda.com/inversion-inmobiliaria-marbella/#activo-fase-4"},
-          {"@type":"ListItem","position":4,"name":"Ático dúplex · Alquiler mensual de verano","url":"https://jaimesureda.com/propiedades/#alquiler"},
-          {"@type":"ListItem","position":5,"name":"Apartamento en planta baja · Alquiler de temporada","url":"https://jaimesureda.com/alquiler-temporada-los-naranjos-marbella/"}
+          {"@type":"ListItem","position":3,"name":"Apartamento de 2 dormitorios en Los Naranjos de Marbella · En venta","url":"https://jaimesureda.com/inversion-inmobiliaria-marbella/#apartamento-en-venta"},
+          {"@type":"ListItem","position":4,"name":"Apartamento en primera planta · Alquilado hasta 2027","url":"https://jaimesureda.com/propiedades/#alquiler"},
+          {"@type":"ListItem","position":5,"name":"Ático dúplex · Alquiler mensual de verano","url":"https://jaimesureda.com/propiedades/#alquiler"},
+          {"@type":"ListItem","position":6,"name":"Apartamento en planta baja · Alquiler de temporada","url":"https://jaimesureda.com/alquiler-temporada-los-naranjos-marbella/"}
         ]
       }
     ]
@@ -51,6 +52,7 @@
   <link rel="stylesheet" href="listing-updates.css?v=20260831">
   <link rel="stylesheet" href="/mobile-nav.css">
   <link rel="stylesheet" href="/legal-links.css">
+  <link rel="stylesheet" href="/staging-disclosure.css?v=20260906">
   <script src="/mobile-nav.js?v=20260804-3" defer></script>
   <script src="listings.js" defer></script>
 </head>
@@ -92,7 +94,7 @@
       </header>
 
       <div class="listing-tabs" role="tablist" aria-label="Tipo de operación">
-        <button type="button" role="tab" aria-selected="true" aria-controls="panel-venta" id="tab-venta" data-listing-tab="venta">En venta <span>2</span></button>
+        <button type="button" role="tab" aria-selected="true" aria-controls="panel-venta" id="tab-venta" data-listing-tab="venta">En venta <span>3</span></button>
         <button type="button" role="tab" aria-selected="false" aria-controls="panel-alquiler" id="tab-alquiler" data-listing-tab="alquiler">Alquiler <span>3</span></button>
       </div>
 
@@ -123,13 +125,27 @@
               <div class="listing-bottom"><strong>950.000 €</strong><a href="/fernando-camino-15/">Ver propiedad →</a></div>
             </div>
           </article>
+
+          <article class="listing-card">
+            <a class="listing-image" href="/inversion-inmobiliaria-marbella/#apartamento-en-venta" aria-label="Ver apartamento en venta en Los Naranjos de Marbella">
+              <img src="/inversion-inmobiliaria-marbella/assets/venta-planta-baja/home-staging-terraza.webp" srcset="/inversion-inmobiliaria-marbella/assets/venta-planta-baja/home-staging-terraza-800.webp 800w, /inversion-inmobiliaria-marbella/assets/venta-planta-baja/home-staging-terraza.webp 1448w" sizes="(max-width:760px) 92vw, 45vw" width="1448" height="1086" loading="lazy" decoding="async" alt="Propuesta de home staging virtual para la terraza del apartamento en venta en Los Naranjos de Marbella">
+              <span class="listing-badge sale">En venta</span>
+            </a>
+            <div class="listing-copy">
+              <p class="listing-location">Los Naranjos de Marbella · Planta baja</p>
+              <h3>Apartamento de <em>2 dormitorios</em></h3>
+              <div class="listing-facts"><span>129,18 m² construidos</span><span>2 dormitorios</span><span>2 baños</span><span>Licencia turística</span></div>
+              <div class="listing-bottom"><strong>390.000 €</strong><a href="/inversion-inmobiliaria-marbella/#apartamento-en-venta">Ver propiedad →</a></div>
+            </div>
+          </article>
         </div>
+        <p class="virtual-staging-notice"><strong>Aviso sobre las imágenes:</strong> el mobiliario y la decoración de las propiedades en venta pueden haber sido retocados o recreados mediante home staging virtual con fines comerciales y de interiorismo y no forman parte necesariamente de la venta.</p>
       </section>
 
       <section class="listing-panel" id="panel-alquiler" role="tabpanel" aria-labelledby="tab-alquiler" data-listing-panel="alquiler">
         <div class="listing-grid rental-grid">
           <article class="listing-card rental-card">
-            <a class="listing-image first-floor-gallery" href="/inversion-inmobiliaria-marbella/#activo-fase-4" aria-label="Ver referencia de alquiler en Los Naranjos de Marbella">
+            <a class="listing-image first-floor-gallery" href="/propiedades/#alquiler" aria-label="Ver referencia de alquiler en Los Naranjos de Marbella">
               <img class="first-floor-main" src="/inversion-inmobiliaria-marbella/assets/paseo-primera-planta-fase-4-mejorada.webp" width="1086" height="1448" loading="lazy" decoding="async" alt="Paseo y jardines de la fase 4 de Los Naranjos de Marbella">
               <img class="first-floor-terrace" src="/propiedades/assets/terraza-primera-planta-fase-4.webp" width="1400" height="1050" loading="lazy" decoding="async" alt="Terraza amueblada del apartamento en primera planta">
               <img class="first-floor-living" src="/propiedades/assets/salon-desde-terraza-primera-planta-fase-4.webp" width="1050" height="1400" loading="lazy" decoding="async" alt="Salón visto desde la terraza del apartamento">
@@ -140,7 +156,7 @@
               <h3>Apartamento en primera planta</h3>
               <div class="listing-facts"><span>106 m²</span><span>2 dormitorios</span><span>2 baños</span><span>21 m² de terrazas</span></div>
               <p class="listing-note">Referencia de alquiler gestionado. El inmueble no está disponible actualmente.</p>
-              <div class="listing-bottom"><strong>No disponible</strong><a href="/inversion-inmobiliaria-marbella/#activo-fase-4">Ver referencia →</a></div>
+              <div class="listing-bottom"><strong>No disponible</strong><a href="/propiedades/#alquiler">Ver referencia →</a></div>
             </div>
           </article>
           <article class="listing-card rental-card summer-card">

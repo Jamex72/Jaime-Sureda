@@ -1,0 +1,105 @@
+.destination-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 36px;
+}
+
+.destination-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+  padding: clamp(24px, 3vw, 42px);
+  border: 1px solid #17201830;
+  background: var(--cream);
+  color: var(--ink);
+  text-decoration: none;
+  transition: background-color .2s, border-color .2s;
+}
+
+.destination-card .destination-label {
+  margin: 0 0 18px;
+  color: var(--olive);
+  font-size: .875rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.destination-card h3,
+.rental-discovery h3 {
+  margin: 0;
+  font: 500 clamp(28px, 2.8vw, 38px)/1.08 var(--serif);
+  letter-spacing: -.025em;
+}
+
+.destination-card > p:not(.destination-label) {
+  margin: 18px 0 22px;
+  font-size: 1rem;
+}
+
+.destination-link,
+.rental-discovery-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 44px;
+  font-size: .875rem;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 1px;
+}
+
+.destination-link {
+  margin-top: auto;
+}
+
+.destination-link > span,
+.rental-discovery-link > span {
+  flex-shrink: 0;
+  font-size: 1.25rem;
+}
+
+.destination-card:hover {
+  border-color: var(--olive);
+  background: var(--sand);
+}
+
+.destination-card:focus-visible,
+.rental-discovery-link:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 5px;
+}
+
+.rental-discovery {
+  margin-top: 32px;
+  padding: 26px 0 0;
+  border-top: 1px solid #1d2d2540;
+}
+
+.rental-discovery h3 {
+  font-size: clamp(26px, 2.4vw, 34px);
+}
+
+.rental-discovery p {
+  margin: 16px 0 12px;
+  font-size: 1rem;
+}
+
+.rental-discovery-link {
+  color: var(--terracotta-deep);
+}
+
+.rental-discovery-link:hover {
+  text-decoration-thickness: 2px;
+}
+
+@media (max-width: 760px) {
+  .destination-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+    margin-top: 24px;
+  }
+}
