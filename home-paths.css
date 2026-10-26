@@ -3,3 +3,5 @@
 
 /* Enhance the transparent logo without adding a background panel. */
 .nav .brand{display:block;background:transparent;border:0;box-shadow:none;overflow:visible}.nav .brand-logo{filter:brightness(0) saturate(100%) invert(83%) sepia(42%) saturate(653%) hue-rotate(351deg) brightness(103%) contrast(91%) drop-shadow(0 2px 3px rgba(0,0,0,.75))}.nav.scrolled .brand-logo{filter:brightness(0) saturate(100%) invert(83%) sepia(42%) saturate(653%) hue-rotate(351deg) brightness(103%) contrast(91%) drop-shadow(0 1px 1px rgba(0,0,0,.3))}
+
+.nav a.language{text-decoration:none;display:inline-block}
